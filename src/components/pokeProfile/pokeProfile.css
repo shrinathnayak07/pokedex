@@ -5,4 +5,10 @@
 .poke-profile {
     display: inline-block;
     background: #FAFADF;
+    width: 200px;
+    margin-top: 140px;
+    font-size: 22px;
+}
+.poke-img img{
+    height: 180px;
 }

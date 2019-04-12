@@ -10,7 +10,7 @@ class Home extends Component {
     }
 
     componentDidMount() {
-        axios.get("https://pokeapi.co/api/v2/pokemon?offset=0&limit=20").then(
+        axios.get("https://pokeapi.co/api/v2/pokemon?offset=0&limit=100").then(
             json => this.setState({ pokemonList: json.data.results })
         )
     }
